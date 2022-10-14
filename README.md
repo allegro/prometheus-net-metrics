@@ -4,7 +4,7 @@ This repo contains a collection of useful metrics to be used with the [prometheu
 
 ## Metrics
 
-- [Allegro.Prometheus.TrueRpsMetric](src/Allegro.Prometheus.TrueRpsMetric/README.md) - utilities for performing batch operations in Azure CosmosDb, such as rate limiting and autoscaling.  
+- [Allegro.Prometheus.TrueRpsMetric](src/Allegro.Prometheus.TrueRpsMetric/README.md) - the "true RPS" aka "max RPS in last scrapping period" metric  
   [![NuGet](https://img.shields.io/nuget/v/Allegro.Prometheus.TrueRpsMetric.svg)](https://nuget.org/packages/Allegro.Prometheus.TrueRpsMetric) [![Build Status](https://github.com/allegro/prometheus-net-metrics/actions/workflows/Allegro.Prometheus.TrueRpsMetric.ci.yml/badge.svg?branch=main)](https://github.com/allegro/prometheus-net-metrics/actions/workflows/Allegro.Prometheus.TrueRpsMetric.ci.yml?query=branch%3Amain)
 
 ## License
