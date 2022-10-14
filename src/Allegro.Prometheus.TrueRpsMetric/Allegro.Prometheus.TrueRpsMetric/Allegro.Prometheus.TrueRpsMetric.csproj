@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageId>Allegro.Prometheus.TrueRpsMetric</PackageId>
+        <PackageDescription>The "true RPS" aka "max RPS in last scrapping period" metric, based on prometheus-net library.</PackageDescription>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+    <Import Project="..\..\Package.Build.props"/>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="Allegro.Prometheus.TrueRpsMetric.Tests"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Routing.Abstractions" Version="2.2.0"/>
+        <PackageReference Include="prometheus-net" Version="6.0.0"/>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allegro.Prometheus.Demo", "Allegro.Prometheus.Demo.csproj", "{17B1DE96-77F1-4198-B1C4-6778D06D3667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allegro.Prometheus.TrueRpsMetric", "..\..\src\Allegro.Prometheus.TrueRpsMetric\Allegro.Prometheus.TrueRpsMetric\Allegro.Prometheus.TrueRpsMetric.csproj", "{5A850BDA-EA0A-400F-A03F-6D4E65FC6BEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B1DE96-77F1-4198-B1C4-6778D06D3667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B1DE96-77F1-4198-B1C4-6778D06D3667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B1DE96-77F1-4198-B1C4-6778D06D3667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B1DE96-77F1-4198-B1C4-6778D06D3667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A850BDA-EA0A-400F-A03F-6D4E65FC6BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A850BDA-EA0A-400F-A03F-6D4E65FC6BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A850BDA-EA0A-400F-A03F-6D4E65FC6BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A850BDA-EA0A-400F-A03F-6D4E65FC6BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

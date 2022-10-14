@@ -1,0 +1,19 @@
+name: Build Allegro.Prometheus.TrueRpsMetric
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/Allegro.Prometheus.TrueRpsMetric/**'
+      - 'src/*'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'src/Allegro.Prometheus.TrueRpsMetric/**'
+      - 'src/*'
+
+jobs:
+  ci:
+    uses: ./.github/workflows/template.yml
+    with:
+      projectName: Allegro.Prometheus.TrueRpsMetric
