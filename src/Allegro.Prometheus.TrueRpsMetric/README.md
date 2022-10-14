@@ -1,6 +1,6 @@
 # Allegro.Prometheus.TrueRpsMetric
 
-This library contains the "true RPS" aka "max RPS in last scrapping period" metric, based on prometheus-net library.
+This library contains the "true RPS" aka "max RPS in last scrapping period" metric, based on [prometheus-net](https://github.com/prometheus-net/prometheus-net) library.
 
 ## What is the "true RPS" metric
 
