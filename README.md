@@ -1,4 +1,6 @@
-# Allegro Prometheus metrics
+## Allegro Prometheus metrics
+
+## About
 
 This repo contains a collection of useful metrics to be used with the [prometheus-net](https://github.com/prometheus-net/prometheus-net) library. Developed as part of [Allegro Pay](https://allegropay.pl/) product.
 
