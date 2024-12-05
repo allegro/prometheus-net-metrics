@@ -1,4 +1,4 @@
-site_name: ops-curl-image docs
+site_name: prometheus-net-metrics docs
 
 plugins:
   - techdocs-core
